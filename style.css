@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(238, 212, 180);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(90, 117, 96);
+    font-size: 3em;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#buttons button:hover {
+    background-color: rgb(29, 43, 29);
+    cursor: pointer;
+}
+
+#pizza, #sushi, #salad, #burger {
+    background-color: rgb(90, 117, 96);
+    padding: 20px 40px;
+    font-size: 1.5em;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#text-message {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    color: rgb(29, 43, 29);
+    margin-bottom: 20px;
+}
+
+#startBtn {
+    display: flex;
+    justify-content: center;
+}
+
+#startOver{
+    background-color: rgb(90, 117, 96);
+    padding: 20px 40px;
+    font-size: 1.5em;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+}
+
+#images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#meal-image {
+    display: none;
+    margin: 50px;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.2s;
+}
+
+#meal-image:hover {
+    transform: scale(1.05);
+}
